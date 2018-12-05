@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+    background-color: gray;
+}
+#pgcontent{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding-top: 75px;
+}
+section{
+    padding: 10px;
+}
+
+/*ABOUT*/
+.a{
+    margin:0 auto;
+    width: 80%;
+    background:#fff;
+    font-family:helvetica,arial,sans-serif;
+    line-height:180%;
+    text-align:justify;
+    color:#333;
+    font-size:13px;
+    padding:40px;
+    border:10px solid #eee;
+}
+.self-info{
+    display:inline-block;
+    vertical-align:top;
+    line-height:150%;
+    margin-right:30px;
+    font-size:12px;
+}
+#abting{
+    width:190px;
+    background:url(USERPIC)center no-repeat;
+    background-size:110px;
+    margin-bottom:10px;
+}
+.abtheader{
+    color:#000;
+    text-transform:uppercase;
+    letter-spacing:3px;
+}
+hr{
+    width:50%;margin:30px auto;border:none;padding:0;height:1px;background:#bbb;
+}
+.statinfo{
+    letter-spacing:3px;
+    font-size:8px;
+}
