@@ -28,6 +28,7 @@ section{
 .self-info{
     display:inline-block;
     vertical-align:top;
+    width: 25%;
     line-height:150%;
     margin-right:30px;
     font-size:12px;
@@ -49,4 +50,25 @@ hr{
 .statinfo{
     letter-spacing:3px;
     font-size:8px;
+}
+.info{
+    display:inline-block;
+    vertical-align:top;
+    width: 70%;
+}
+
+/*PROJECTS*/
+.carousel{
+    width:80%;
+    margin: auto;
+}
+
+#projlinks{
+    padding-left: 10%;
+}
+
+/*CONTACT*/
+#contact{
+    margin: auto;
+    width: 80%;
 }
