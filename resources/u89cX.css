@@ -1,6 +1,9 @@
 body{
     width: 99%;
-    background-color: gray;
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 #pgcontent{
     width: 80%;
@@ -71,4 +74,17 @@ hr{
 #contact{
     margin: auto;
     width: 80%;
+}
+
+
+/*social*/
+#discord{
+    width:3em;
+    position: absolute;
+    left: 15px;
+    top: -50px;
+}
+
+#disclaimer{
+    text-align: right;
 }
