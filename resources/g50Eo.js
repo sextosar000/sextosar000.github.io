@@ -4,6 +4,6 @@ $(document).ready(function(){
       $('.discord').animate({
         height: 'toggle',
         width: 'toggle'
-      });
+      }, "fast");
     });
   });
