@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="resources/u89cX.css">
     <script src="resources/g50Eo.js" async></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
         <!-- Brand -->
-        <a class="navbar-brand" href="#"><img src="LOGO"></a>
+        <a class="navbar-brand" href="#"><h3>§</h3></a>
       
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -55,17 +55,10 @@
             </div>
             <div class="info">
                     
-                <b class="abtheader">CURRENT INFORMATION</b><br>
+                <b class="abtheader">Welcome!</b><br>
                 <article>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et commodo orci. Quisque tempor, lorem nec congue condimentum, quam orci rhoncus dolor, ut fringilla ligula ligula nec orci. Phasellus sodales nisl lacus, vitae euismod elit lobortis laoreet. Nam mollis, turpis vulputate pharetra finibus, nibh urna pulvinar urna, non vulputate felis purus ut mauris. Nullam egestas porttitor sem, ut imperdiet quam. Praesent varius posuere nisl a iaculis. Praesent maximus eu lorem et suscipit. Proin eget erat sed ipsum iaculis porttitor eu sed nisi. Sed at quam ut neque euismod egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut justo accumsan, rutrum ligula id, molestie ipsum. Vivamus eleifend nulla ut fermentum aliquet. Mauris aliquet diam eu nisi pharetra, vitae luctus ex pharetra.
-
-Curabitur ultricies gravida purus in bibendum. Fusce faucibus maximus velit, blandit placerat nibh blandit eget. Etiam faucibus, ipsum ut scelerisque placerat, augue felis blandit purus, at vehicula felis mi ac metus. Vivamus eu elit ac mauris ornare laoreet vel eu mauris. Phasellus semper urna et nulla gravida, sed consequat sapien posuere. Etiam dapibus rutrum ultricies. Etiam imperdiet diam eu mi eleifend, vel scelerisque odio scelerisque. Nam id scelerisque libero, tincidunt porta sapien. Integer pretium, justo a luctus sodales, felis metus tempus sapien, vel imperdiet metus diam sed eros. Aliquam nec pellentesque dui, sed scelerisque orci.
-
-Aliquam ut commodo augue, a finibus leo. Nam vitae orci id diam egestas malesuada id vitae odio. Quisque arcu ipsum, rhoncus sed orci eu, eleifend lobortis nunc. Nunc vestibulum maximus enim, nec efficitur sem. Maecenas cursus justo non fermentum lobortis. Morbi in dictum eros. Maecenas hendrerit velit id posuere commodo. Vivamus vel sapien rutrum, iaculis nisl ac, finibus velit. Maecenas at velit eu nulla iaculis sollicitudin in et diam. Sed non faucibus mauris, quis faucibus enim. Quisque est ante, pellentesque sit amet feugiat in, ornare in urna. Integer vel egestas risus. Integer fermentum vehicula enim sed tempor. Nullam feugiat, orci in bibendum posuere, ligula ligula molestie enim, sit amet semper ex ipsum sed mauris. Nulla at blandit ante.
-
-Integer scelerisque arcu mauris, nec accumsan dolor efficitur sit amet. Maecenas porttitor, libero in mollis porta, libero tellus dictum risus, a placerat felis velit tempus nunc. Vivamus hendrerit quam vitae purus sodales imperdiet. Integer varius eu justo at vestibulum. Donec pulvinar sapien leo, tincidunt fermentum dui interdum eu. Vivamus laoreet pretium lacinia. Vivamus eget felis porta, consectetur augue malesuada, consequat augue. Praesent urna mauris, pretium ut tristique at, dapibus sed nibh. Praesent pellentesque, tellus nec maximus tempor, metus lectus lobortis nisi, quis rutrum massa libero eget orci.
-
-Cras sit amet dolor massa. Quisque sed mi blandit, tristique turpis hendrerit, vestibulum urna. Duis placerat lacus vitae justo condimentum, sed lacinia lacus porta. Sed tristique at diam lobortis posuere. In et sollicitudin lorem. Praesent ac bibendum augue, quis euismod magna. Sed augue mi, tempor rhoncus libero vel, ornare mollis ex. Integer in suscipit erat, dignissim accumsan velit. Sed sed condimentum nibh. Aliquam placerat lectus nisi, sit amet blandit sem congue quis. Fusce tincidunt leo diam, vitae fermentum dui volutpat tempus. Ut eu ipsum a elit dignissim tempus. Nam at ligula quis lorem gravida placerat eu vel eros. Pellentesque sed nunc erat. Morbi nunc sem, tincidunt non pharetra at, fringilla sed elit.
+                    <p>So you've stumbled upon this page. Clearly, there's interest in something here... right?</p>
+                    <p>Sarah Sexton is a growing programmer who has received a bulk of her knowledge playing around with the "inspect element" option in google chrome, also taking courses in Computer Science at the Walker Career Center. She has knowledge in HTML, CSS, JavaScript, JQuery, and Bootstrap, and is looking to expand in to other languages. </p>
                 </article><br>
                 
             </div>
@@ -137,17 +130,13 @@ Cras sit amet dolor massa. Quisque sed mi blandit, tristique turpis hendrerit, v
             </div> 
         </div>
 
-        <div id="projlinks">
-            <div class="dropdown dropright">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                  Project Links
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Project A</a>
-                  <a class="dropdown-item" href="#">Project B</a>
-                  <a class="dropdown-item" href="#">Project C</a>
-                </div>
-            </div>
+        <div id="projlinks" class="bg-dark">
+            <button type="button" class="btn btn-dark" id="projlink">
+                Project Links
+            </button> 
+            <a href="sadf" id="a" class="projs">Project A</a>
+            <a href="asdf" id="b" class="projs">Project B</a>
+            <a href="asdf" id="c" class="projs">Project C</a>
         </div>
     </section>
     
@@ -177,12 +166,14 @@ Cras sit amet dolor massa. Quisque sed mi blandit, tristique turpis hendrerit, v
     </div>
 
     <footer class="page-footer row bg-dark">
-        <div class="col-sm-2" id="social-media"> 
-            <img src="LOGO" id="social">
-            <img src="resources/discord.png" id="discord">
+        <div class="col-sm-6" id="social-media"> 
+            <h3 id="logo">§</h3>
+            <a href="http://www.joelnelsongroup.com/wp-content/uploads/2015/08/Coming-Soon.jpg"><img src="resources/discord.png" id="discord" class="social"></a>
+            <a href="http://instagram.com/snowykittin"><img src="resources/insta.png" id="insta" class="social"></a>
+            <a href="http://twitter.com/snowykittin"><img src="resources/twitter.png" id="twitter" class="social"></a>
         </div>
-        <div class="col-sm-10" id="disclaimer">
-            DISCLAIMER
+        <div class="col-sm-6" id="disclaimer">
+            <h4>DISCLAIMER</h3>
         </div>
     </footer>
 </body>

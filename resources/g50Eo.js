@@ -1,9 +1,13 @@
 $(document).ready(function(){
 
-    $('.discord').click(function(){
-      $('.discord').animate({
-        height: 'toggle',
-        width: 'toggle'
-      }, "fast");
-    });
+
+    $('#logo').click(function(){
+      $('.social').fadeToggle(100);
+    })
+
+    $('#projlink').click(function(){
+      $('#a').fadeToggle(200);
+      $('#b').fadeToggle(300);
+      $('#c').fadeToggle(400);
+    })
   });

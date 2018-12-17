@@ -67,7 +67,13 @@ hr{
 }
 
 #projlinks{
-    padding-left: 10%;
+    margin: auto;
+    width: 80%;
+}
+.projs{
+    display: none;
+    padding: 10%;
+    color: white;
 }
 
 /*CONTACT*/
@@ -78,13 +84,25 @@ hr{
 
 
 /*social*/
-#discord{
-    width:3em;
+.social{
+    width:2em;
     position: absolute;
-    left: 15px;
-    top: -50px;
+    top: 15%;
+    display: none;
 }
-
+#discord{
+    left: 7%;
+}
+#insta{
+    left: 12%;
+}
+#twitter{
+    left: 17%;
+}
 #disclaimer{
     text-align: right;
+    margin: auto;
+}
+h3{
+    padding-left: 2%;
 }
