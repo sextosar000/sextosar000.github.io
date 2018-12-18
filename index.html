@@ -130,13 +130,13 @@
             </div> 
         </div>
 
-        <div id="projlinks" class="bg-dark">
-            <button type="button" class="btn btn-dark" id="projlink">
+        <div id="projlinks" class="bg-dark row">
+            <button type="button" class="btn btn-dark col-sm-3" id="projlink">
                 Project Links
             </button> 
-            <a href="sadf" id="a" class="projs">Project A</a>
-            <a href="asdf" id="b" class="projs">Project B</a>
-            <a href="asdf" id="c" class="projs">Project C</a>
+            <a href="sadf" id="a" class="projs col-sm-3">Project A</a>
+            <a href="asdf" id="b" class="projs col-sm-3">Project B</a>
+            <a href="asdf" id="c" class="projs col-sm-3">Project C</a>
         </div>
     </section>
     
@@ -168,12 +168,24 @@
     <footer class="page-footer row bg-dark">
         <div class="col-sm-6" id="social-media"> 
             <h3 id="logo">§</h3>
-            <a href="http://www.joelnelsongroup.com/wp-content/uploads/2015/08/Coming-Soon.jpg"><img src="resources/discord.png" id="discord" class="social"></a>
-            <a href="http://instagram.com/snowykittin"><img src="resources/insta.png" id="insta" class="social"></a>
-            <a href="http://twitter.com/snowykittin"><img src="resources/twitter.png" id="twitter" class="social"></a>
+            <a href="http://www.joelnelsongroup.com/wp-content/uploads/2015/08/Coming-Soon.jpg"><img src="resources/discord.png" id="discord" class="social img-fluid"></a>
+            <a href="http://instagram.com/snowykittin"><img src="resources/insta.png" id="insta" class="social img-fluid"></a>
+            <a href="http://twitter.com/snowykittin"><img src="resources/twitter.png" id="twitter" class="social img-fluid"></a>
+        </div>
+        <div class="popup-overlay">
+            <div class="popup-content">
+                <p>Legal mumbo jumbo here.</p><br>
+                <button class="close">Close</button>   
+            </div>
         </div>
         <div class="col-sm-6" id="disclaimer">
-            <h4>DISCLAIMER</h3>
+                <div class="popup-overlay">
+                        <div class="popup-content">
+                            <p>Legal mumbo jumbo here.</p><br>
+                            <button class="close">Close</button>   
+                        </div>
+                </div>
+            <button class="open btn btn-dark">DISCLAIMER</button>
         </div>
     </footer>
 </body>

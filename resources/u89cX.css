@@ -36,9 +36,9 @@ section{
     margin-right:30px;
     font-size:12px;
 }
-#abting{
-    background:url(USERPIC)center no-repeat;
-    background-size:110px;
+#abtimg{
+    background:url(self.jpg)center no-repeat;
+    background-size: 60%;
     margin-bottom:10px;
 }
 .abtheader{
@@ -71,8 +71,8 @@ hr{
 }
 .projs{
     display: none;
-    padding: 10%;
     color: white;
+    margin:auto;
 }
 
 /*CONTACT*/
@@ -90,13 +90,13 @@ hr{
     display: none;
 }
 #discord{
-    left: 7%;
+    left: 3.5em;
 }
 #insta{
-    left: 12%;
+    left: 6em;
 }
 #twitter{
-    left: 17%;
+    left: 8.7em;
 }
 #disclaimer{
     text-align: right;
@@ -104,4 +104,29 @@ hr{
 }
 h3{
     padding-left: 2%;
+}
+
+/*DISCLAIMER*/
+.popup-overlay {
+    visibility: hidden;
+    position: fixed;
+    top: 25%;
+    left: 10%;
+}
+    
+.popup-content {
+    visibility: hidden;
+    position: fixed;
+    top: 25%;
+    width: 78.2em;
+    background-color: yellow;
+}
+
+.popup-overlay.active{
+    visibility: visible;  
+}
+        
+.popup-content.active {
+    visibility: visible;
+    
 }

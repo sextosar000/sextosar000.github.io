@@ -10,4 +10,13 @@ $(document).ready(function(){
       $('#b').fadeToggle(300);
       $('#c').fadeToggle(400);
     })
+
+
+    $(".open").on("click", function(){
+      $(".popup, .popup-content").addClass("active");
+      });
+
+      $(".close, .popup").on("click", function(){
+        $(".popup, .popup-content").removeClass("active");
+        }); 
   });
