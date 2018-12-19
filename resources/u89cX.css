@@ -111,7 +111,7 @@ h3{
 .popup-overlay {
     visibility: hidden;
     position: fixed;
-    left: 25%;
+    left: 20%;
     top: 25%;
 }
     
